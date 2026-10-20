@@ -25,7 +25,7 @@ server.onConnect = function (clientId) {
    print("WebSocket connected! Client ID: " + clientId);
   
    // Send a welcome message to this specific client
-   server.send(clientId, "Welcome toWebSocket server!");
+   server.send(clientId, "Welcome to WebSocket server!");
 };
 
 // Triggered when a client sends a message
