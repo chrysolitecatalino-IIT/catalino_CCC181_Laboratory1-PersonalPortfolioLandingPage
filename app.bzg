@@ -1,5 +1,7 @@
 include("lib/http.bzg");
 
+print("http://localhost:8000");
+
 var server = http(8000);
 
 // ==========================================
