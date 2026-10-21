@@ -1,6 +1,7 @@
 include("lib/http.bzg");
 
-print("http://localhost:8000");
+print("\n* To access the landing page ctrl+click http://localhost:8000");
+print("* Press Ctrl+C to terminate this process");
 
 var server = http(8000);
 
